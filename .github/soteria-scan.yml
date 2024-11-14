@@ -1,0 +1,17 @@
+name: Soteria Audit
+
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check-out the repository
+        uses: actions/checkout@v3
+      - name: Soteria Audit
+        continue-on-error: false          
+        uses: silas-x/soteria-action@main
