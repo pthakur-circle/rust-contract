@@ -15,3 +15,8 @@ jobs:
       - name: Soteria Audit
         continue-on-error: false          
         uses: silas-x/soteria-action@main
+        with:                             
+          solana-version: "1.10.32"       
+          run-mode: "-analyzeAll"         
+          cargo-com: "."                  
+          program-path: "."               
