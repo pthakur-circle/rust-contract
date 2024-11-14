@@ -16,7 +16,7 @@ jobs:
         continue-on-error: false          
         uses: silas-x/soteria-action@main
         with:                             
-          solana-version: "1.10.32"       
+          solana-version: "1.18.26"       
           run-mode: "-analyzeAll"         
           cargo-com: "."                  
           program-path: "."               
