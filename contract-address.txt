@@ -1,0 +1,4 @@
+1. ByoQ163GgNp4DHnaY1cvj1qB2zxyGcLZ5DHECz35NMHN
+
+mint nft tx: https://explorer.solana.com/tx/2PpkiiZ4563qkjPo6AURNr9mHeT2n8GX9Vav3hcFcuvVepVxi4JcSiu47BvVJ3pC79UcRnS5YikZponuiDT1XmBd?cluster=devnet
+minted nft: https://explorer.solana.com/address/C3es2PR2NJqJmYvW5sXi1MRrJaL8NH9QDgLmono9Biqe?cluster=devnet
