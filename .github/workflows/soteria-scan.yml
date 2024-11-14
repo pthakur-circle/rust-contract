@@ -17,6 +17,10 @@ jobs:
         run: |
           sh -c "$(curl -sSfL https://release.solana.com/v1.18.25/install)"
           echo "$HOME/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
+        
+      - name: List directories
+        run: |
+          ls -la $HOME/.local/share/solana/install/active_release/bin/sdk/bpf/scripts
 
       - name: Build the project
         run: cargo build
